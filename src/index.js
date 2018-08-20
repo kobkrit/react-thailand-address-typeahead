@@ -1,6 +1,6 @@
 // @flow
 import React from 'react';
-import { fieldsEnum } from './finder';
+import { resolveResultbyField, fieldsEnum } from './finder';
 import AddressTypeahead from './AddressTypeahead.component';
 
 type AddressFormInputPropType = {
@@ -58,5 +58,5 @@ class AddressForm extends React.Component {
     </div>);
   }
 }
-
+export resolveResultbyField;
 export default AddressForm;
